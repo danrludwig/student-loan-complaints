@@ -1,0 +1,41 @@
+-- Analysis --
+
+After getting topics from the LDA model I looked at the tokenized versions of the top 5 complaints for each topic 
+(the top 5 complaints were the complaints with the highest topic percentage contribution for that specific topic) 
+and entitled those different topics:
+
+Topic # - Topic title
+
+    0 - Agreement disputes
+    1 - Ameritech issues
+    2 - University attended closed early
+    3 - Debt forgiveness
+    4 - Credit score issues
+    5 - Need new payment plan (can't afford current one)
+    6 - Payment issues
+    7 - Customer service issues
+
+From our exploritory analysis we listed the different categories of issues in the dataset were:
+
+    Can't repay my loan
+    Credit monitoring or identity theft protection services
+    Dealing with my lender or servicer
+    Dealing with your lender or servicer
+    Getting a loan
+    Improper use of your report
+    Incorrect infomration on your report
+    Problem with a credit reporting company's investigation into an existing problem
+    Problem with fraud alerts or security  freezes
+    Struggling to repay your loan
+    Unable to get your credit report or credit score
+
+There were 11 original issues listed in the dataset, which we went with 8 topics for the lda model because 
+that number yielded the highest coherence score. We knew not all of these topics were going to match exactly,
+but we figured most of them would be pretty similar, with just a few differences. The goal of this was to 
+see if there was any common issues the original dataset wasn't seeing (or they just didn't have a category 
+for).
+
+The most frequent topics from the LDA model are 0, 3, 5, 6, and 7 (with each of them having over 2000 instances).
+Comparing the more common topics to the list of issues from the dataset, there are two topics that aren't found
+as an issue category in the dataset (3 - Dept forgiveness, and 5 - Need new payment plan (can't afford current 
+one)).

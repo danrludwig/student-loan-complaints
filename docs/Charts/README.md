@@ -1,0 +1,1 @@
+Here are a couple snippits of graphs that are in my my "Final product.ipynb" notebook that GitHub won't display.
