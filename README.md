@@ -1,4 +1,4 @@
-# student-loan-complaints
+# Topic Modeling on CFPB Data
 
 This is a project I worked on under the supervision of MIS Professor Zsolt Ugray at the Jon. M Huntsman School 
 of Business. We analyzed CFPB text data on complaints against student loan providers. For each complaint there
