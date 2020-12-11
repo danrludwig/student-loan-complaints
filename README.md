@@ -14,3 +14,6 @@ The code is numbered so it's easy to see what order I used which notebooks. Item
 and getting rid of columns I didn't see as necessary. Items 2 are my LDA model, 2.1 is finding the best number
 of topics for this dataset, 2.2 is tuning the model, and 2.3 is chaning the preprocessing a bit and visualizing
 the results.
+
+I presented this project at the Undergraduate Research Symposium at USU. In the docs/ directory I've got my 
+poster presentation in pdf format under Presentation.pdf.
